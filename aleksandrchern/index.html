@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ТЕХНО МИР - Интернет Магазин</title>
+    <link rel="stylesheet" href="css/stile.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="website-container">
+
+      
+        <header class="main-header">
+            <div class="logo">
+                <h1>ТЕХНО МИР</h1>
+                <p>ИНТЕРНЕТ МАГАЗИН</p>
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#" class="nav-link" data-frame="home">ГЛАВНАЯ</a></li>
+                    <li><a href="#" class="nav-link" data-frame="contacts">КОНТАКТЫ</a></li>
+                    <li><a href="#" class="nav-link" data-frame="catalog-menu">КАТАЛОГ</a></li>
+                    <li><a href="#" class="nav-link" data-frame="promotions">АКЦИИ</a></li>
+                    <li><a href="#" class="nav-link" data-frame="cart-empty">КОРЗИНА</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main class="content-area">
+            
+            <section id="frame-home" class="frame active">
+                <div class="search-bar">
+                    <input type="text" placeholder="Поиск">
+                    <button><i class="fas fa-search"></i></button>
+                </div>
+                <div class="featured-product">
+                    <img src="file:///C:/Users/Саша/Desktop/проект%20по%20IT/image%2020%20(2).png" alt="Игровой компьютер">
+                </div>
+                <div class="promo-buttons">
+                    <button class="promo-btn nav-link" data-frame="computers">КОМПЬЮТЕРЫ</button>
+                    <button class="promo-btn nav-link" data-frame="phones">ТЕЛЕФОНЫ</button>
+                    <button class="promo-btn nav-link" data-frame="tablets">ПЛАНШЕТЫ</button>
+                    <button class="promo-btn nav-link" data-frame="promotions">АКЦИИ</button>
+                </div>
+            </section>
+
+            
+            <section id="frame-catalog-menu" class="frame">
+                <ul class="catalog-menu-list">
+                    <li><button class="catalog-btn nav-link" data-frame="tablets">ПЛАНШЕТЫ</button></li>
+                    <li><button class="catalog-btn nav-link" data-frame="computers">КОМПЬЮТЕРЫ</button></li>
+                    <li><button class="catalog-btn nav-link" data-frame="phones">ТЕЛЕФОНЫ</button></li>
+                    <li><button class="catalog-btn nav-link" data-frame="promotions">АКЦИИ</button></li>
+                </ul>
+            </section>
+
+            
+            <section id="frame-tablets" class="frame product-listing">
+                <h2>Планшеты</h2>
+                <div class="product-grid">
+                    <div class="product-card">
+                        <img src="file:///C:/Users/Саша/Desktop/проект%20по%20IT/image%2017.png" alt="Samsung Galaxy Tab S8 Ultra">
+                        <p class="product-name">Samsung Galaxy Tab S8 Ultra</p>
+                        <p class="product-price">101 999 p.</p>
+                        <button class="add-to-cart-btn">В корзину</button>
+                    </div>
+                    <div class="product-card">
+                        <img src="file:///C:/Users/Саша/Desktop/проект%20по%20IT/image%2018.png" alt="Apple iPad Pro 11">
+                        <p class="product-name">Apple iPad Pro 11</p>
+                        <p class="product-price">89 990 p.</p>
+                        <button class="add-to-cart-btn">В корзину</button>
+                    </div>
+                    <div class="product-card">
+                        <img src="file:///C:/Users/Саша/Desktop/проект%20по%20IT/image%2016.png" alt="Apple iPad Pro 12.9">
+                        <p class="product-name">Apple iPad Pro 12.9</p>
+                        <p class="product-price">130 000 p.</p>
+                        <button class="add-to-cart-btn">В корзину</button>
+                    </div>
+                </div>
+            </section>
+
+            
+            <section id="frame-contacts" class="frame">
+                <div class="contact-info">
+                    <h2>Контакты</h2>
+                    <p>Номер телефона: 8 947 870 00 00</p>
+                    <p>Адрес магазина: ул. Измайлова 32Б</p>
+                </div>
+            </section>
+
+            
+            <section id="frame-computers" class="frame product-listing">
+                <h2>Компьютеры</h2>
+                <div class="product-grid">
+                    <div class="product-card">
+                        <img src="file:///C:/Users/Саша/Desktop/проект%20по%20IT/image%206.png" alt="Игровой компьютер 1">
+                        <p class="product-name">Игровой компьютер 1</p>
+                        <p class="product-price">150 000 p.</p>
+                        <button class="add-to-cart-btn">В корзину</button>
+                    </div>
+                    <div class="product-card">
+                        <img src="file:///C:/Users/Саша/Desktop/проект%20по%20IT/image%207.png" alt="Игровой компьютер 2">
+                        <p class="product-name">Игровой компьютер 2</p>
+                        <p class="product-price">120 000 p.</p>
+                        <button class="add-to-cart-btn">В корзину</button>
+                    </div>
+                    <div class="product-card">
+                        <img src="file:///C:/Users/Саша/Desktop/проект%20по%20IT/image%208.png" alt="Игровой компьютер 3">
+                        <p class="product-name">Игровой компьютер 3</p>
+                        <p class="product-price">180 000 p.</p>
+                        <button class="add-to-cart-btn">В корзину</button>
+                    </div>
+                </div>
+            </section>
+
+            
+            <section id="frame-cart-empty" class="frame">
+                <p class="empty-cart-message">У вас нет товаров в корзине</p>
+            </section>
+
+            
+            <section id="frame-phones" class="frame product-listing">
+                <h2>Телефоны</h2>
+                <div class="product-grid">
+                    <div class="product-card">
+                        <img src="file:///C:/Users/Саша/Desktop/проект%20по%20IT/image%2015%20(1).png" alt="iPhone 14 Pro Max">
+                        <p class="product-name">iPhone 14 Pro Max</p>
+                        <p class="product-price">120 000 p.</p>
+                        <button class="add-to-cart-btn">В корзину</button>
+                    </div>
+                    <div class="product-card">
+                        <img src="file:///C:/Users/Саша/Desktop/проект%20по%20IT/image%2012.png" alt="Samsung Galaxy A23">
+                        <p class="product-name">Samsung Galaxy A33</p>
+                        <p class="product-price">30 000 p.</p>
+                        <button class="add-to-cart-btn">В корзину</button>
+                    </div>
+                    <div class="product-card">
+                        <img src="file:///C:/Users/Саша/Desktop/проект%20по%20IT/image%2011.png" alt="Samsung Galaxy A52">
+                        <p class="product-name">Xiaomi 12</p>
+                        <p class="product-price">45 000 p.</p>
+                        <button class="add-to-cart-btn">В корзину</button>
+                    </div>
+                </div>
+            </section>
+
+            <
+            <section id="frame-promotions" class="frame">
+                <p class="empty-cart-message">На данный момент акции отсутствуют.</p>
+            </section>
+
+        </main>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const navLinks = document.querySelectorAll('.nav-link');
+            const frames = document.querySelectorAll('.frame');
+
+            function showFrame(id) {
+                frames.forEach(frame => {
+                    frame.classList.remove('active');
+                    frame.style.display = 'none';
+                });
+                const targetFrame = document.getElementById(`frame-${id}`);
+                if (targetFrame) {
+                    targetFrame.classList.add('active');
+                    targetFrame.style.display = 'block'; 
+                }
+            }
+
+         
+            showFrame('home');
+
+            navLinks.forEach(link => {
+                link.addEventListener('click', (e) => {
+                    e.preventDefault();
+                    const frameId = e.target.dataset.frame;
+                    if (frameId) {
+                        showFrame(frameId);
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
